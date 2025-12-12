@@ -52,5 +52,6 @@
     <ui:ManualTrigger Result="{x:Null}" DisplayName="Manual Trigger" sap2010:WorkflowViewState.IdRef="ManualTrigger_1" />
     <ui:LogMessage DisplayName="Log Message" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;1&quot;]" />
     <ui:LogMessage DisplayName="Log Message 1" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;knk&quot;]" />
+    <ui:LogMessage Message="{x:Null}" DisplayName="Log Message 2" sap2010:WorkflowViewState.IdRef="LogMessage_3" />
   </Sequence>
 </Activity>
